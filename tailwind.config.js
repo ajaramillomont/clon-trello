@@ -43,6 +43,15 @@ module.exports = {
       'gray100': '#f3f4f6',
       'gray300': '#d1d5db',
       'gray500': '#6b7280',
+      },
+      container: {
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1024x',
+          '2xl': '1536px',
+        }
       }
     },
   },

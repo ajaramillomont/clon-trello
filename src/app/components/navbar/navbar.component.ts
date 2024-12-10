@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { OverlayModule } from '@angular/cdk/overlay'
 import { ButtonComponent } from '../../shared/components/button/button.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faBell, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+import { faTrello } from '@fortawesome/free-brands-svg-icons';
+import { faBell, faInfoCircle, faBox, faWaveSquare, faClock } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -12,6 +13,11 @@ import { faBell, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 export class NavbarComponent {
   faBell = faBell;
   faInfoCircle = faInfoCircle;
+  faTrello = faTrello;
+  faBox = faBox;
+  faWaveSquare = faWaveSquare;
+  faClock = faClock;
+
   isOpen = false;
   isOpenBody = false;
 }
