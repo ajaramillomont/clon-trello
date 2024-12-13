@@ -14,7 +14,8 @@ export class ButtonComponent {
   get colors() {
     return {
       //diccionario de colores
-
+      'text-white': this.color === 'success' || this.color === 'primary' || this.color === 'purple' || this.color === 'red',
+      'text-gray': this.color === 'gray',
       'bg-success-700': this.color === 'success',
       'hover:bg-success-800': this.color === 'success',
       'focus:ring-success-300': this.color === 'success',
@@ -27,7 +28,9 @@ export class ButtonComponent {
       'bg-red-700': this.color === 'red',
       'hover:bg-red-800': this.color === 'red',
       'focus:ring-red-300': this.color === 'red',
-
+      'bg-gray-300': this.color === 'gray',
+      'hover:bg-gray-400': this.color === 'gray',
+      'focus:ring-gray-50': this.color === 'gray',
     }
   }
 

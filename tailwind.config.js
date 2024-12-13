@@ -37,12 +37,17 @@ module.exports = {
         700: '#0369a1',
         800: '#075985',
       },
+      'gray': {
+        50: '#f9fafb',
+        100:'#f3f4f6',
+        300:'#d1d5db',
+        400: '#9ca3af',
+        500:'#6b7280',
+        800: '#1f2937',
+      },
 
       'white': '#f8fafc',
-      'gray50': '#f9fafb',
-      'gray100': '#f3f4f6',
-      'gray300': '#d1d5db',
-      'gray500': '#6b7280',
+
       },
       container: {
         screens: {
